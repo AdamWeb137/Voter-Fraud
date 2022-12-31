@@ -1,0 +1,104 @@
+:root {
+    --svg-height:602px;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    background-image: linear-gradient(to right, red 0% 12%, white 12% 25%, blue 25% 75%, white 75% 87%,  red 87% 100%);
+    user-select: none;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 5px solid black;
+}
+
+/* #content {
+    width: fit-content;
+} */
+
+#header h1 {
+    color:white;
+    font-size: 4rem;
+    margin:3px;
+}
+
+#year_text {
+    font-size: 2rem;
+}
+
+.cf {
+    display: flex;
+    justify-content: center;
+}
+
+.hc {
+    align-items: center;
+}
+
+#showbtn {
+    border: 2px solid black;
+    background-color: blue;
+    font-size: 2rem;
+    color:white;
+    text-align: center;
+    margin:5px;
+    padding: 10px;
+}
+
+#showbtn:hover {
+    cursor: pointer;
+}
+
+svg {
+    margin:10px;
+}
+
+.sideline_text {
+    font-size: 2rem;
+    margin:2px;
+    text-align: center;
+}
+
+.sideline {
+    margin:5px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.party_button {
+    width: 25px;
+    height: 25px;
+    margin:3px;
+    border-radius: 25px;
+}
+
+#results p {
+    text-align: center;
+}
+
+#results {
+    max-height:var(--svg-height);
+}
+
+#incorrect_states {
+    overflow-y: auto;
+    height: 200px;
+}
+
+#new_game_container > * {
+    margin:5px;
+}
+
+#amount_to_change {
+    width: 200px;
+}
